@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600&display=swap');
+
+.title {
+    font-size: 45px;
+    color: white;
+    font-family: "Rubik Scribble", system-ui;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.titleWhite {
+    font-size: 45px;
+    color: black;
+    font-family: "Rubik Scribble", system-ui;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: snow;
+    margin-top: 40px;
+    opacity: 0.8;
+    margin-left: 27px;
+    border-radius: 7px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    font-family: 'Exo 2', sans-serif;
+    border: honeydew 1.3px solid;
+}
+
+.footer_white {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #777373;
+    color: black;
+    margin-top: 40px;
+    opacity: 0.8;
+    margin-left: 27px;
+    border-radius: 7px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    font-family: 'Exo 2', sans-serif;
+    border: firebrick 1.3px solid;
+}
+
+.info img {
+    margin: 5px 0 0 20px;
+    border-radius: 15px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    color: black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.info2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 27px;
+    background-color: black;
+    color: snow;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    opacity: 0.8;
+    border: honeydew 1.3px solid;
+    border-radius: 7px;
+}
+
+.info2_white {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 27px;
+    background-color: #777373;
+    color: black;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    opacity: 0.8;
+    border: firebrick 1.3px solid;
+    border-radius: 7px;
+}
+
+.genres {
+    font-family: 'Exo 2', sans-serif;
+}
+
+.runtime {
+    display: flex;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.release_date {
+    display: flex;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.rating h1 {
+    display: flex;
+    margin-top: -1px;
+    padding-right: 20px;
+    text-align: center;
+    color: yellow;
+}

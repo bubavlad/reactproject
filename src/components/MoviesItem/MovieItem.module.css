@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Rubik+Scribble&display=swap');
+
+.itemContainer {
+    width: 300px;
+}
+
+.click {
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+    cursor: pointer;
+}
+
+.img {
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.click:hover {
+    opacity: 0.6;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Cantata One", serif;
+    font-size: 22px;
+    margin: 40px 0 0 0;
+}
+
+.titleWhite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: "Cantata One", serif;
+    font-size: 22px;
+    margin: 40px 0 0 0;
+}
+
+.starRatings {
+    padding: 20px 0 35px 0;
+}
